@@ -34,3 +34,38 @@ function sayHello(nameOfPerson, age) {
 }
 
 sayHello("dwen", 30)
+
+function plus(a, b) {
+	console.log(a + b);
+}
+
+plus(5, 5)
+
+const calculator = {
+	add: function (a, b) {
+		return (a + b);
+	},
+	minus: function (a, b) {
+		return (a - b);
+	},
+	times: function (a, b) {
+		return (a * b);
+	},
+	divide: function (a, b) {
+		return (a / b);
+	},
+	power: function (a, b) {
+		return (a ** b);
+	},
+
+}
+
+const age = 96;
+
+function calculateKrAge(ageOfForeigner) {
+	return ageOfForeigner + 2;
+}
+
+const krAge = calculateKrAge(age);
+
+console.log(krAge);
